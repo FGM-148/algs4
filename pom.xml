@@ -6,6 +6,13 @@
 	<packaging>jar</packaging>
 	<version>1.0.0.0</version>
 	<name>algs4</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<github.maven.repository>file:///home/ms/Documents/algs4</github.maven.repository>
+	</properties>
+
 	<licenses>
 		<license>
 			<name>GNU GENERAL PUBLIC LICENSE</name>
@@ -69,5 +76,11 @@
 		</profile>
 	</profiles>
 	<dependencies>
-	</dependencies>  
+	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>algs4</id>
+			<url>${github.maven.repository}</url>
+		</repository>
+	</distributionManagement>
 </project>
