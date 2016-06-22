@@ -10,7 +10,6 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<github.maven.repository>file:///home/ms/Documents/algs4</github.maven.repository>
 	</properties>
 
 	<licenses>
